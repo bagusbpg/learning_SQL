@@ -1,5 +1,5 @@
 /*
-Query all attributes of every Japanese city in the CITY table.
+Query the names of all the Japanese cities in the CITY table.
 The COUNTRYCODE for Japan is JPN.
 The CITY table is described as follows:
 Field       Type
@@ -10,4 +10,4 @@ DISTRICT    VARCHAR2(20)
 POPULATION  NUMBER
 */
 
-SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
+SELECT NAME FROM CITY WHERE COUNTRYCODE = 'JPN';
