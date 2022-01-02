@@ -3,7 +3,7 @@ Write a query that prints a list of employee names (i.e.: the name attribute)
 from the Employee table in alphabetical order.
 
 Schema
-There is 1 tables:
+There is 1 table:
 Employee
 Field       Type
 employee_id INTEGER
